@@ -18,16 +18,22 @@ $ pip install -r requirements.txt
 3. для Facebook [инструкция](https://developers.facebook.com/docs/graph-api/explorer/)
 
 После всех мучений с получением токенов создайте файл .env и заполните следующим образом:
-VK_USER_TOKEN=ваш_токен_ВК
-VK_USER_LOGIN=ваш_логин_ВК
-VK_GROUP_ID=id_вашей_группы_ВК(цифры из ссылки на группу)
-VK_ALBUM_ID=id_альбома_вашей_группы_ВК(цифры из ссылки на альбом группы вк)
 
-TELEGRAM_TOKEN=токен_телеграм_бота
-TELEGRAM_CHANEL_ID=ссылка_на_канал(например: @my_channel_is_awesome)
+`VK_USER_TOKEN`=ваш_токен_ВК
 
-FACEBOOK_TOKEN=токен_фейсбук
-FACEBOOK_GROUP_ID=id_группы_фейсбук(цифры из ссылки на группу)
+`VK_USER_LOGIN`=ваш_логин_ВК
+
+`VK_GROUP_ID`=id_вашей_группы_ВК(цифры из ссылки на группу)
+
+`VK_ALBUM_ID`=id_альбома_вашей_группы_ВК(цифры из ссылки на альбом группы вк)
+
+`TELEGRAM_TOKEN`=токен_телеграм_бота
+
+`TELEGRAM_CHANEL_ID`=ссылка_на_канал(например: @my_channel_is_awesome)
+
+`FACEBOOK_TOKEN`=токен_фейсбук
+
+`FACEBOOK_GROUP_ID`=id_группы_фейсбук(цифры из ссылки на группу)
 
 ### Пример запуска
 Скрипт принимает на вход два обязательных аргумента, путь до изображения и путь до текстового файла с самим постом(*.txt)
